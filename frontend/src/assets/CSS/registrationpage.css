@@ -1,0 +1,80 @@
+.add-user-section .container {
+    max-width: 800px; /* Reduced max-width for better centering */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for better contrast */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  }
+  
+  .form-header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-body {
+    display: grid;
+    grid-template-columns: 1fr; /* Single-column layout for better centering */
+    gap: 20px;
+  }
+  
+  .form-section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff; /* Background for each section */
+  }
+  
+  .form-section h2 {
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center; /* Centering the section headers */
+  }
+  
+  .form-section:nth-child(2) h2 {
+    background-color: #28a745;
+  }
+  
+  .form-group div {
+    margin-bottom: 15px;
+  }
+  
+  .form-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .btn-submit {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 150px; /* Fixed width for better alignment */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+  }
+  
+  .btn-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
